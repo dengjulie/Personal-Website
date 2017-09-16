@@ -14,14 +14,17 @@ body {
 	font-size: 120px;
 	font-family: 'Cabin Sketch';
 	text-align: left;
-	padding-left: 80px;
+	padding-left: 100px;
 	padding-top: 30px;
-	font-weight: bold;
 	letter-spacing: 2px;
+	z-index: 10;
+	position: absolute;
+	color: tan;
 }
 .overlay {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.01;
+	z-index: 5;
 }
