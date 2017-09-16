@@ -9,6 +9,7 @@ body {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	background: center center fixed;
 }
 #home-text {
 	font-size: 800%;
